@@ -1,0 +1,9 @@
+node_modules/
+dist/
+cdk.out/
+*.js
+*.d.ts
+!cdk/cdk.json
+.kiro/
+__pycache__/
+*.pyc
