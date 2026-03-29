@@ -194,6 +194,31 @@ python scripts/sync-and-query.py <KnowledgeBaseId> <DataSourceId>
 | 改装后的矛盾钟摆值多少耳语硬币？ | 14,000 枚耳语硬币 |
 | 矛盾钟摆显示哪些"时间的味道"？ | 酸涩的早晨、天鹅绒黄昏、松脆的午夜、液态星期四 |
 
+## 实际查询输出
+
+以下是知识库部署完成后，运行查询脚本的真实输出：
+
+> Q: How many fingers did Elsworth Vane have and how were they distributed?
+> A: According to the search results, Elsworth Vane was known for having exactly eleven fingers - six on his left hand and five on his right hand.
+>
+> Q: What was the name of the three-legged cat and what was its special ability?
+> A: The name of the three-legged cat that guarded Elsworth Vane's workshop was Professor Zinc. Professor Zinc had the unusual ability to sneeze in perfect B-flat.
+>
+> Q: What was Madame Fisk submarine called and what powered it?
+> A: Madame Fisk's submarine was called "The Lactose Intolerant" and it was powered by the collective sighs of disappointed librarians.
+>
+> Q: How fast could the albino squirrels of the postal service travel?
+> A: According to the search results, the albino squirrels used by the Graspel Hollow Postal Service to deliver mail could navigate underground tunnels at speeds of exactly 7.3 miles per hour.
+>
+> Q: What was the motto carved above Elsworth workshop door?
+> A: The motto carved above Elsworth's workshop door in letters made of crystallized moonlight read: "Time Is Just a Suggestion We All Agreed to Ignore."
+>
+> Q: How much was the Paradox Pendulum worth in Whisper Coins after modification?
+> A: According to the search results, after Madame Fisk modified the Paradox Pendulum to also display "emotional weather" forecasts, the clock's value increased to 14,000 Whisper Coins, making it the most expensive object ever sold in Graspel Hollow.
+>
+> Q: What are the flavors of time displayed by the Paradox Pendulum?
+> A: According to the search results, the Paradox Pendulum displayed "flavors of time" that Elsworth Vane had invented himself. These included Sour Morning, Velvet Dusk, Crunchy Midnight, and the rarest of all, Liquid Thursday.
+
 ## 清理资源
 
 ```bash
