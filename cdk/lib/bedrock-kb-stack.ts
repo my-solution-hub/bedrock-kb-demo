@@ -22,10 +22,10 @@ export class BedrockKbStack extends cdk.Stack {
 
     // --- Knowledge Base (AOSS collection + index created automatically) ---
     const kb = new bedrock.VectorKnowledgeBase(this, "KnowledgeBase", {
-      embeddingsModel: bedrock.BedrockFoundationModel.COHERE_EMBED_ENGLISH_V3,
+      embeddingsModel: bedrock.BedrockFoundationModel.COHERE_EMBED_MULTILINGUAL_V3,
       instruction:
-        "Use this knowledge base to answer questions about a strange fictional story. " +
-        "It contains unique facts that cannot be found anywhere else.",
+        "Use this knowledge base to answer questions about strange fictional stories. " +
+        "It contains unique facts in English, Chinese, and German.",
     });
 
     // --- S3 Data Source ---
@@ -34,8 +34,8 @@ export class BedrockKbStack extends cdk.Stack {
       knowledgeBase: kb,
       dataSourceName: "story-content",
       chunkingStrategy: bedrock.ChunkingStrategy.fixedSize({
-        maxTokens: 500,
-        overlapPercentage: 20,
+        maxTokens: 1000,
+        overlapPercentage: 25,
       }),
     });
 
